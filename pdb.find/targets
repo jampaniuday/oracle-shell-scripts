@@ -1,0 +1,13 @@
+# This file is used by getPDB.sh. It contains connection details for your
+# container database (CDB) that you want to search through.
+#
+# A space, ' ', is used as the field terminator. A new line terminates the 
+# entry. Lines beginning with a pound sign, "#" are comments or disabled entries.
+#
+# Entries are of the form:
+#   'CDB HOSTNAME' 'CDB SID' 'CDB SYSTEM PASSWORD'
+#
+# The first and second fields are the hostname and system identifier of CDB. 
+# The third field indicated SYSTEM schema password of CDB respectively
+#
+# Add your CDB connection details below:
