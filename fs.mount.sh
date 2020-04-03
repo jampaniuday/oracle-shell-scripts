@@ -1,5 +1,5 @@
 #!/bin/bash
-# script: mount_fs.sh
+# script: fs.mount.sh
 # author: Richard K @ www.rkkoranteng.com
 # description: format and mount linux fs
 # last modified: 11/28/2017
