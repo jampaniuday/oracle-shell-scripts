@@ -17,4 +17,4 @@ Entries are of the form:<br/>
 
 <p>The script will only display a message once a match is found. In the example below I'm using the getPDB script to search for a PDB called testpdb.</p>
 
-```./findPDB.sh testpdb```
+```./findPDB.sh {pdb name}```
