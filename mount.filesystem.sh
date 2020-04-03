@@ -2,6 +2,7 @@
 # script: mount_fs.sh
 # author: Richard K @ www.rkkoranteng.com
 # desc: format and mount linux fs
+# ./mount.filesystem.sh xvda u01
 # last modified: 11/28/2017
 
 if [ $# -ne 2 ]
