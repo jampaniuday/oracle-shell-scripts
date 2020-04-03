@@ -1,7 +1,7 @@
 #!/bin/bash
 # script: mount_fs.sh
 # author: Richard K @ www.rkkoranteng.com
-# desc: format and mount linux fs
+# description: format and mount linux fs
 # last modified: 11/28/2017
 
 # example: ./mount.filesystem.sh xvda u01
