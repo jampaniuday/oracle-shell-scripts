@@ -4,7 +4,7 @@
 # description: format and mount linux fs
 # last modified: 11/28/2017
 
-# example: ./mount.filesystem.sh xvda u01
+# example: ./fs.mount.sh xvda u01
 
 if [ $# -ne 2 ]
 then
