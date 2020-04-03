@@ -1,5 +1,5 @@
 #!/bin/bash
-# script: renamePDB.sh v1
+# script: pdb.rename.sh v1
 # author: Richard K @ www.rkkoranteng.com
 # desc: simplify the process for renaming an Oracle PDB
 # last modified: 6/01/2019
