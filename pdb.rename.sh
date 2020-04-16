@@ -1,10 +1,9 @@
 #!/bin/bash
-# script: pdb.rename.sh v1
+# script: pdb.rename.sh
 # author: Richard K @ www.rkkoranteng.com
 # desc: simplify the process for renaming an Oracle PDB
 # last modified: 6/01/2019
-
-# example: ./pdb.rename.sh {CDB NAME} {OLD PDB NAME} {NEW PDB NAME}
+# usage: ./pdb.rename.sh {CDB NAME} {OLD PDB NAME} {NEW PDB NAME}
 
 if [ $# -ne 3 ]
 then
