@@ -2,7 +2,7 @@
 # script: sql.monitor.sh
 # author: Richard K @ www.rkkoranteng.com
 # description: alert when there's a long running sql within the last hour
-# usage: $0 <elapse time>
+# usage: $0 <elapse time>  <email>
 #
 # SUMMARY OD STEPS:
 # -----------------
@@ -14,16 +14,16 @@
 #  - send mail alert
 
 # check syntax
-if [ $# -ne 1 ]
+if [ $# -ne 2 ]
 then
- echo -e "\nUsage: $0 <elapse time>\n\n   <elapse time> = sla for long running sql in minutes\n"
+ echo -e "\nUsage: $0 <elapse time>\n\n   <elapse time> = sla for long running sql in minutes\n   <email> = alert email address\n"
  exit 1;
 fi
 
 # declare variables
 source ~/.bash_profile
 criticalElapsedTime=$1
-mailAddress='richard@rkkoranteng.com'
+mailAddress=$2
 logFile='/tmp/monitor_sql.log'
 
 # clean old logs
