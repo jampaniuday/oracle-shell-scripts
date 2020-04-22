@@ -16,7 +16,7 @@
 # check syntax
 if [ $# -ne 2 ]
 then
- echo -e "\nUsage: $0 <elapse time>\n\n   <elapse time> = sla for long running sql in minutes\n   <email> = alert email address\n"
+ echo -e "\nUsage: $0 <elapsed-time>  <email>\n\n   <elapsed-time> = sla for long running sql in minutes\n   <email> = alert email address\n"
  exit 1;
 fi
 
